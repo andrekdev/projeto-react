@@ -1,10 +1,11 @@
 import React from "react";
-
+import Header from './Header'
 function App(){
     return(
-        <div>
+        <>
+        <Header titulo="Olá mundo"/>
             <h1>Olá Mundo!</h1>
-        </div>
+        </>
     )
 }
 
